@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-display: "Bebas Neue", "Arial Black", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  /* Backgrounds — near-black */
+  --color-background: #0d0d0d;
+  --color-surface: #111111;
+  --color-surface-secondary: #1a1a1a;
+  --color-surface-muted: #222222;
+  --color-surface-elevated: #1c1c1c;
+
+  /* Kraft / aged paper */
+  --color-kraft: #e8d5b0;
+  --color-kraft-dark: #d4bc8f;
+  --color-kraft-darker: #b8996a;
+  --color-kraft-text: #1a1008;
+  --color-kraft-subtext: #5a3e20;
+  --color-kraft-border: #8b6914;
+
+  /* Borders */
+  --color-border: #2a2a2a;
+  --color-border-light: #333333;
+  --color-border-grunge: #3d2e1a;
+
+  /* Text — on dark surfaces */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #aaaaaa;
+  --color-text-muted: #666666;
+  --color-text-hint: #888888;
+
+  /* Primary accent — orange */
+  --color-accent: #f97316;
+  --color-accent-dark: #ea6a0a;
+  --color-accent-light: #7c3800;
+  --color-accent-muted: #3d1c00;
+  --color-accent-foreground: #ffffff;
+
+  /* Danger / impostor */
+  --color-danger: #e53e3e;
+  --color-danger-dark: #c53030;
+  --color-danger-light: #5a1212;
+  --color-danger-muted: #2d0808;
+  --color-danger-foreground: #ffffff;
+
+  /* Success */
+  --color-success: #38a169;
+  --color-success-light: #1a3d28;
+  --color-success-foreground: #ffffff;
+
+  /* Warning */
+  --color-warning: #d69e2e;
+  --color-warning-foreground: #ffffff;
+
+  /* Vote */
+  --color-vote-selected: #c4956a;
+  --color-vote-selected-text: #1a0e05;
+  --color-vote-self: #2d2d2d;
+  --color-vote-self-text: #666666;
+
+  /* Player nickname colors in chat */
+  --color-player-1: #f97316;
+  --color-player-2: #a78bfa;
+  --color-player-3: #34d399;
+  --color-player-4: #60a5fa;
+  --color-player-5: #f472b6;
+  --color-player-6: #facc15;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #0d0d0d;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
